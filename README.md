@@ -1,4 +1,4 @@
-![SABnzbd Logo](https://git.ddnss.org/uploads/-/system/project/avatar/18/LiquidCTL-icon.png)
+![Logo](https://github.com/avpnusr/liquidctl-docker/blob/master/img/LiquidCTL-icon.png?raw=true)
 
 **liquidctl in container with multiarch support**
 ===
@@ -29,7 +29,7 @@ Also you need the "port" from the usb bus, so you can map the device to the cont
 
 In my example this would be /sys/bus/usb/devices/**3-6.3**
 
-![Serial Example](https://git.ddnss.org/klein/liquidctl/-/raw/master/img/usb_serial.png)
+![Serial Example](https://github.com/avpnusr/liquidctl-docker/blob/master/img/usb_serial.png?raw=true)
 
 Choose fan- and pumpspeeds
 ---
@@ -53,14 +53,14 @@ The speed between temperatures will be mapped linear i.e. if you set "FANSPEED=2
 
 The container logs useful information in the beginning and continues to output temperatures and fan- / pump-speeds as it runs. So consider to limit the logfile-size for the container e.g. "--log-opt max-size=5m --log-opt max-file=1" 
 
-![Docker Logs](https://git.ddnss.org/klein/liquidctl/-/raw/master/img/docker_logs.png)
+![Docker Logs](https://github.com/avpnusr/liquidctl-docker/blob/master/img/docker_logs.png?raw=true)
 
 Start your container
 -----
 
 You can add the container via the "Docker" tab in your UnRAID:
 
-![Add Docker UnRAID](https://git.ddnss.org/klein/liquidctl/-/raw/master/img/add_container_unraid.PNG)
+![Add Docker UnRAID](https://github.com/avpnusr/liquidctl-docker/blob/master/img/add_container_unraid.PNG?raw=true)
 
 Or via command-line:
 
