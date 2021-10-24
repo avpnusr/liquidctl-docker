@@ -68,7 +68,7 @@ Or via command-line:
 docker run -d \
   --device /sys/bus/usb/devices/<your-device-id> \
   --privileged \
-  -e SERIAL=<your-serial>
+  -e MATCH=<your-serial>
   -e PUMPSPEED=<your-pumpspeed>
   -e FANSPEED=<your-fanspeed>
   --restart=unless-stopped avpnusr/liquidctl

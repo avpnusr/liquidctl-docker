@@ -1,11 +1,11 @@
 #! /bin/bash
 liquidctl initialize all
-liquidctl --serial $SERIAL list
-liquidctl --serial $SERIAL set pump speed $PUMPSPEED
-liquidctl --serial $SERIAL set fan speed $FANSPEED
+liquidctl --match $MATCH list
+liquidctl --match $MATCH set pump speed $PUMPSPEED
+liquidctl --match $MATCH set fan speed $FANSPEED
 sleep 20
 while true; do
-        liquidctl --serial $SERIAL status
+        liquidctl --match $MATCH status
         sleep 15
 done
 
