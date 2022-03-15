@@ -1,4 +1,4 @@
-![Logo](https://github.com/avpnusr/liquidctl-docker/blob/master/img/LiquidCTL-icon.png?raw=true)
+![Logo](https://raw.githubusercontent.com/avpnusr/liquidctl-docker/master/img/LiquidCTL-icon.png)
 
 **liquidctl in container with multiarch support**
 ===
