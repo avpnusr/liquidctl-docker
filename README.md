@@ -64,7 +64,7 @@ To keep it simple and flexible for users of the container, there is the **COLORS
 You can specify what color setting you wish on what device, in fact it's a wildcard that lets you define a custom liquidctl setting.
 
 ````
-COLORSPEC=--match gigabyte set sync color fixed ffffff
+COLORSPEC="--match gigabyte set sync color fixed ffffff"
 ````
 
 In my case this sets the color for the RGB-LEDs on my motherboard to white.
